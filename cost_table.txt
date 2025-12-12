@@ -1,0 +1,4 @@
+get_cost(Unlocks.Dinosaurs) -> {Items.Cactus: 2000}
+get_cost(Entities.Cactus) -> {Items.Pumpkin: 4}
+get_cost(Entities.Pumpkin) -> {Items.Carrot: 4}
+get_cost(Entities.Carrot) -> {Items.Hay: 32, Items.Wood: 32}
